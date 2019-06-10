@@ -2,6 +2,14 @@
 # coding: utf-8
 
 # ### Creating a TCP CLient using the socket module 
+# 
+# ####  Assumptions:
+# 
+# * Assumed success in our connection and included no exception handling
+# 
+# * Assumed the server is always expecting us to send data first. Not always happens in the order.
+# 
+# * Assumed that the server will always send us data back in a timely fashion. This is not always the case.
 
 # In[1]:
 
