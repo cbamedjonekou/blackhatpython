@@ -7,7 +7,7 @@
 # 
 # * Assumed success in our connection and included no exception handling
 # 
-# * Assumed the server is always expecting us to send data first. Not always happens in the order.
+# * Assumed that the server is expecting us to send data first. This does not always happen in the order.
 # 
 # * Assumed that the server will always send us data back in a timely fashion. This is not always the case.
 
